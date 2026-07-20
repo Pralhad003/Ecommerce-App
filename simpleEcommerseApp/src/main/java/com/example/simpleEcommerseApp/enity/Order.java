@@ -6,6 +6,10 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
+@getter
+@Setter
+
+
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
